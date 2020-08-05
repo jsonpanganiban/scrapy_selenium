@@ -26,10 +26,10 @@ class CopartSpider(scrapy.Spider):
         self.url = 'https://www.copart.com'
 
     def get_driver(self):
-        PROXY_HOST = 'x.botproxy.net'  # rotating proxy or host
+        PROXY_HOST = ''  # rotating proxy or host
         PROXY_PORT = 8080 # port
-        PROXY_USER = 'pxu21186-1' # username
-        PROXY_PASS = 'okJNkzLyAhrWoqMo9Nfi' # password
+        PROXY_USER = '' # username
+        PROXY_PASS = '' # password
 
         manifest_json = """
         {
